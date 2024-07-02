@@ -1,5 +1,10 @@
-@Library( 'roboshop' ) _
+@Library('roboshop') _
 
-env.component="aws-ssm-param-store"
-env.app_lang="docker"
+env.app_language = "docker"
+env.component = "aws-ssm-param-store"
+
+
 ci()
+
+
+
